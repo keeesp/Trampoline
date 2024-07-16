@@ -68,7 +68,8 @@ class ShopElement{
 		this._updatePrice = newprice_func;
 		this._onClick = onclick_func;
 		
-		this.price = 0;
+		this.price = index.price;
+		//this.price = 0;
 		this.purchaseLvl = 1;
 		this.updatePrice();
 	}

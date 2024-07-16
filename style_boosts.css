@@ -5,7 +5,7 @@
 */
 body{
 	background: rgb(00,000,000);
-	background: radial-gradient(circle, rgba(245, 40, 145, 0.8) 0%, rgba(255, 0, 132, 1) 31%, rgba(255, 0, 0, 1) 100%);
+	/*background: radial-gradient(circle, rgba(245, 40, 145, 0.8) 0%, rgba(255, 0, 132, 1) 31%, rgba(255, 0, 0, 1) 100%);*/
 }
 
 /* 
@@ -43,24 +43,19 @@ body{
 .button{
 	width: 200;height: 50;
 	position: absolute;
-	left: 50%;
+	left: 87%;
 	transform: translate(-50%, -50%);
 }
+.button {background-color: #f44336;} /* Red */
+
 .button:disabled{
 	background-color: #B3B3B3;
-}
-.boostbtn{
-	width: 200;height: 50;
-	position: absolute;
-	left: 50%;
-	top: 80%;
-	transform: translate(-50%, -50%);
 }
 
 #b1{top:22%}
 #b2{top:32%}
 #b3{top:42%}
-#b4{top:52%}
+#back{top:5%}
 
 
 /* 
